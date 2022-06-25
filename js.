@@ -1,0 +1,27 @@
+var a= prompt('Enter the operator you want to perform \n eg +,-,*,/')
+if (a=='+'){
+    var b=parseInt(prompt('enter first number'))
+    var d=parseInt(prompt('enter second number'))
+    var c=b+d
+    alert(c)
+}else if (a=='-'){
+    var b=parseInt(prompt('enter first number'))
+    var d=parseInt(prompt('enter second number'))
+    var c=b+d
+    alert(c)
+    }
+   else if (a=='/'){
+        var b=parseInt(prompt('enter first number'))
+        var d=parseInt(prompt('enter second number'))
+        var c=b+d
+        alert(c)
+   }
+   if (a=='*'){
+    var b=parseInt(prompt('enter first number'))
+    var d=parseInt(prompt('enter second number'))
+    var c=b+d
+    alert(c)
+   }
+   else{
+    alert('invalid operator')
+   }
